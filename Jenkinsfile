@@ -13,8 +13,7 @@ pipeline {
       steps {
         container('maven') {
           dir('env') {
-          sh "jx step next-version --filename package.json --tag"            
-          sh 'jx step helm build'
+            sh 'jx step helm build'
           }
         }
       }
