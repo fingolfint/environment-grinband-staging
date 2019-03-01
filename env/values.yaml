@@ -1,4 +1,4 @@
-x-node-http:
+jx-node-http:
   replicaCount: 6
 PipelineSecrets: {}
 cleanup:
