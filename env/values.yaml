@@ -1,4 +1,5 @@
-replicaCount: 10
+x-node-http:
+  replicaCount: 6
 PipelineSecrets: {}
 cleanup:
   Annotations:
