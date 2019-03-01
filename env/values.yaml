@@ -1,3 +1,4 @@
+replicaCount: 10
 PipelineSecrets: {}
 cleanup:
   Annotations:
