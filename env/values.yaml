@@ -1,5 +1,3 @@
-jx-node-http:
-  replicaCount: 6
 PipelineSecrets: {}
 cleanup:
   Annotations:
@@ -24,4 +22,6 @@ jenkins:
     Global:
       EnvVars:
         TILLER_NAMESPACE: kube-system
+jx-node-http:
+  replicaCount: 6
 prow: {}
